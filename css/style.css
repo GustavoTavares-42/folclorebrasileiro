@@ -1,0 +1,52 @@
+body {
+    margin: 8px;
+    padding: 8px;
+    
+    
+    
+}
+/*cabeçalho*/
+a {
+    text-decoration: none;
+    color: mintcream;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hdr {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+     background-image:url("https://i.pinimg.com/564x/84/56/ed/8456ed58dc9eafbcd4206931b5cae3d2.jpg");
+     background-color: darkgreen;
+     background-position:top;
+     
+     }
+.logo {
+  font-size: 2rem;
+  font-style:inherit;
+  
+}
+
+.sobre {
+    margin-right: 30px;
+    margin-top: 15px;
+    
+}
+/*conteúdo*/
+.content {
+    display: grid;
+    grid-template-columns: "img img" "img2 img2";
+    grid-template-rows: 29px 29px 29px 29px;
+    background-color: darkslategrey;
+    margin-bottom: 60px;
+    
+    
+    
+}
+/*rodapé*/
+footer{
+    display: flex;
+    background-image: url("/Imagens/floresta.png");
+    background-color: darkseagreen;
+    
+}
