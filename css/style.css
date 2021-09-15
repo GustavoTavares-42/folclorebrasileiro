@@ -1,6 +1,8 @@
 body {
-    margin: 8px;
-    padding: 8px;
+    width: 1280;
+    height: 940;
+    margin: 0px;
+    padding: 0px;
     
     
     
@@ -13,6 +15,8 @@ a {
 }
 
 .hdr {
+    width: 1280;
+    height: 124;
      display: flex;
      justify-content: space-between;
      padding: 20px;
@@ -34,20 +38,19 @@ a {
     
 }
 /*conteúdo*/
-.content {
-    display: grid;
-    grid-template-columns: "img img" "img2 img2";
-    grid-template-rows: 29px 29px 29px 29px;
+.content1 {
+    display: flex;
+    flex-direction: row;
     background-color: darkslategrey;
-    
-    
-    
-    
+}
+.content2 {
+    display: flex;
+    background-color: darkslategrey;
 }
 /*rodapé*/
 footer{
     display: flex;
-    background-image: url("/Imagens/floresta.png");
+    background-image: url("../Imagens/logo.png");
     background-color: darkseagreen;
     
 }
