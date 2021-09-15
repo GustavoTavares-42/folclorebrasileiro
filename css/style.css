@@ -16,9 +16,10 @@ a {
      display: flex;
      justify-content: space-between;
      padding: 20px;
-     background-image:url("https://i.pinimg.com/564x/84/56/ed/8456ed58dc9eafbcd4206931b5cae3d2.jpg");
+     background-image:url("../Imagens/logo.png");
      background-color: darkgreen;
-     background-position:top;
+     background-position: 30% 60%;
+     background-size: 100%;
      
      }
 .logo {
@@ -38,7 +39,7 @@ a {
     grid-template-columns: "img img" "img2 img2";
     grid-template-rows: 29px 29px 29px 29px;
     background-color: darkslategrey;
-    margin-bottom: 60px;
+    
     
     
     
