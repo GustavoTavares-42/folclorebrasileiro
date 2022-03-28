@@ -1,134 +1,94 @@
-body {
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
-    overflow-x: hidden;
-}
-a {
-    text-decoration: none;
-    color: mintcream;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-/*.estrutura {
-    display: grid;
-    grid-template-columns: 2fr 100%;
-    grid-template-areas: 
-    "header header"
-    "content1 content1"
-    "content2 content2"
-    "footer footer";
-}*/
 
-/*cabeçalho*/
-
-
-.hdr {
-    /*grid-area: header;*/
-     display: flex;
-     justify-content: space-between;
-     padding: 20px;
-     background-image:url("../Imagens/logo.png");
-     background-color: darkgreen;
-     background-position: 30% 60%;
-     background-size: 100%;
-     
-     }
-.logo {
-  font-size: 2rem;
-  font-style:inherit;
-  
-}
-
-.sobre {
-    margin-right: 30px;
-    margin-top: 15px;
-    
-}
-/*conteúdo*/
-.content1 {
-    /*grid-area: content1;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-
-    
-}
-.content2 {
-    /*grid-area: content2;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-}
-
-div img {
-    border-radius: 60%;
-    width: 356px;
-    height: 340px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-}
-.saci {
-    background-color:#DC5555;
-    width: 700px;
-}
-.boto {
-    background-color: #AF84B9;
-    width: 700px;
-}
-.kurupira {
-    background-color: #70CF89;
-    width: 700px;
-}
-.boi {
-    background-color: #62D2EF;
-    width: 700px;
-}
-.saci img {
-    margin-left: 100px;
-}
-.kurupira img 
+/* cabeçalho */
+.hdr
 {
-    margin-left: 100px;
-}
-.boto img{
-    margin-right: 300px;
-    margin-left: 200px;
-}
-.boi img{
-    margin-right: 300px;
-    margin-left: 200px;
-}
-/*rodapé*/
-.rodape {
-    /*grid-area: footer;*/
-    display: flex;
-    justify-content:end;
-    background-image: url("../Imagens/logo.png");
-    background-color: darkseagreen;
-    background-position: 5% 50%;
+    background-image: url("/Imagens/logo.png");
     background-size: 100%;
-    
+    background-repeat: no-repeat;
+    background-position:50% 55%;
+    height: 60px;
+    border: solid 1px black;
 }
-.linke {
-    margin-top: 10px;
-    max-width: 26px;
-    max-height: 26px;
-    border-radius: 25%;
-}
-footer p, img {
-     margin-right: 10px;
-     color: white;
-     font: bold;
-     
-}
-.insta {
-    margin-right: 200px;
-    width: 26px;
-    height: 26px;
-    margin-top: 10px;
+.logo
+{
+    float: left;
+    font-size: 2.1rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 
+.sobre
+{
+    float: right;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+/* conteúdo */
+.content
+{
+    height: 600px;
+    background-color: rgb(170, 179, 182);
+}
+img
+{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    margin-top: 50px;
+    border: solid 3px black;
+}
+.saci
+{
+    float: left;
+    background-color: rgba(255, 0, 0, 0.521);
+    text-align: center;
+    height: 300px;
+}
+.boto
+{
+    float: right;
+    background-color: rgba(255, 192, 203, 0.63);
+    text-align: center;
+    height: 300px;
+}
+.kurupira
+{
+    float: left;
+    background-color: rgba(0, 81, 255, 0.384);
+    text-align: center;
+    height: 300px;
+}
+.boi{
+    float: right;
+    background-color: rgba(0, 128, 0, 0.459);
+    text-align: center;
+    height: 300px;
+}
+/* roda pé */
+.rodape
+{
+    position: absolute;
+    padding: 0;
+    background-image: url("/Imagens/logo.png");
+    width: 100%;
+    height: 60px;
+    color:white;
+    text-align: center;
+}
+#linke img
+{
+    width: 25px;
+    height: 25px;
+    border: none;
+    position: absolute;
+    top: -20px;
+}
 
+h5
+{
+    font-weight: bold;
+}
