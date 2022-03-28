@@ -1,3 +1,3 @@
 # folclorebrasileiro
 
-Projeto sobre o folclore brasileiro, criado para praticar front-end. 👍
+Para pra5tica criei um site informativo, usei CSS, HTML e jquery. 👍
